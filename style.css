@@ -53,8 +53,16 @@ nav{
     font-size: 18px;
     font-weight: 500;
     color: #424242;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
 }
-
+.nav-item ul li:hover{
+    background-color: #131313;
+}
+.nav-item ul li:hover a{
+    color: #FF900E;
+}
 /* banner section style */
 
 .banner-section{
@@ -265,7 +273,10 @@ nav{
     .nav-item ul{
         margin-top: 10px;
     }
-    .banner-section,.enjoy-text, #main-section, .enjoy, .some, .sponspor{
+    .banner-section,.enjoy-text, .enjoy, .some, .sponspor{
+        width: 100%;
+    }
+    #main-section{
         width: 100%;
     }
     
@@ -313,7 +324,7 @@ nav{
         margin: 25px;
     }
     .footer-aria{
-        margin: 0 25px;
+        margin: 0 25px 200px;
     }
 
 }
