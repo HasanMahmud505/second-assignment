@@ -55,13 +55,14 @@ nav{
     color: #424242;
     padding: 10px;
     border-radius: 5px;
-    transition: 0.5s;
 }
 .nav-item ul li:hover{
-    background-color: #131313;
+    background-color: #FF900E;
+    transition: 0.7s;
 }
 .nav-item ul li:hover a{
-    color: #FF900E;
+    color: #ffffff;
+    transition: 0.7s;
 }
 /* banner section style */
 
@@ -234,6 +235,19 @@ nav{
     color: #727272;
 }
 
+.icon-item:hover{
+    background-color: #FF900E;
+    transform: skewX(3deg);
+    transition: 0.8s;
+}
+.icon-item:hover .count{
+   color: #ffffff;
+   transition: 0.8s;
+}
+.icon-item:hover .icon-text{
+    color: #ffffff;
+    transition: 0.8s;
+}
 /* sponspor section style */
 .sponspor{
     text-align: center;
@@ -279,7 +293,6 @@ nav{
     #main-section{
         width: 100%;
     }
-    
     .enjoy-main{
         margin-right: 25px;
     }
